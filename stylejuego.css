@@ -1,0 +1,79 @@
+li{
+    display: inline;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;    
+    color: rgb(26, 26, 147);
+    margin-top: 0;
+
+}
+h2{
+    text-align:center;
+  
+}
+
+    
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center; 
+  height: 70vh; 
+  margin: 0; 
+}
+body{
+    background-image:url(inicio/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:antiquewhite;
+    text-align: center;
+}
+       
+nav {
+    background-color:	rgb(210, 180, 140) ; 
+    height: 50px; 
+    line-height: 50px;
+    margin-bottom:25px;
+   }
+ a {
+   text-decoration: none;
+   color: black;
+   font-size: 20px;
+ }
+p{
+  background-color: #fceee3;
+  display: inline;
+}
+ nav a:hover {
+  background-color:#f9e3d0;
+ }
+ 
+ nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+ nav li {
+  display: inline;
+  background-color: rgb(240, 212, 175);
+}
+ nav img{
+  float: left;
+  margin-top: 7px;
+  margin-left:20px;
+}
+h2 span:hover{
+  background: linear-gradient(to right, rgb(236, 109, 109), rgb(247, 195, 100), rgb(238, 238, 105), rgb(137, 238, 137), rgb(147, 147, 241), rgb(245, 146, 245));
+  padding:10px;
+  border-radius: 5px;
+  font-size: 20;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
